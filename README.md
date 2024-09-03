@@ -12,7 +12,7 @@ El proyecto está organizado utilizando Apache Maven para gestionar las dependen
 
 /KodigoActividad2
 │
-├── pom.xml                              # Archivo de configuración de Maven
+├── pom.xml
 │
 ├── /src
 │   ├── /main
@@ -20,35 +20,35 @@ El proyecto está organizado utilizando Apache Maven para gestionar las dependen
 │   │   │   └── /com
 │   │   │       └── /kodigo
 │   │   │           └── /algoritmos
-│   │   │               ├── BusquedaSecuencial.java      # Clase para búsqueda secuencial
-│   │   │               ├── BusquedaBinaria.java         # Clase para búsqueda binaria
-│   │   │               ├── OrdenamientoBurbuja.java     # Clase para ordenamiento burbuja
-│   │   │               ├── OrdenamientoInsercion.java   # Clase para ordenamiento por inserción
-│   │   │               ├── OrdenamientoSeleccion.java   # Clase para ordenamiento por selección
-│   │   │               └── AlgoritmoUtils.java          # Clase de utilidades comunes (si es necesario)
+│   │   │               ├── BusquedaSecuencial.java
+│   │   │               ├── BusquedaBinaria.java
+│   │   │               ├── OrdenamientoBurbuja.java
+│   │   │               ├── OrdenamientoInsercion.java
+│   │   │               ├── OrdenamientoSeleccion.java
+│   │   │               └── AlgoritmoUtils.java
 │   │   │
 │   │   └── /resources
-│   │       └── log4j2.xml                      # Configuración de logging si se utiliza
+│   │       └── log4j2.xml
 │   │
 │   └── /test
 │       ├── /java
 │       │   └── /com
 │       │       └── /kodigo
 │       │           └── /algoritmos
-│       │               ├── AlgoritmoUtils.java          # Clase de utilidades comunes (si es necesario)
-│       │               ├── BusquedaSecuencialTest.java    # Tests para búsqueda secuencial
-│       │               ├── BusquedaBinariaTest.java       # Tests para búsqueda binaria
-│       │               ├── OrdenamientoBurbujaTest.java   # Tests para ordenamiento burbuja
-│       │               ├── OrdenamientoInsercionTest.java # Tests para ordenamiento por inserción
-│       │               ├── OrdenamientoSeleccionTest.java # Tests para ordenamiento por selección
-│       │               └── TestGlobal.java                # Clase para pruebas de rendimiento y benchmarks
+│       │               ├── AlgoritmoUtils.java
+│       │               ├── BusquedaSecuencialTest.java
+│       │               ├── BusquedaBinariaTest.java
+│       │               ├── OrdenamientoBurbujaTest.java
+│       │               ├── OrdenamientoInsercionTest.java
+│       │               ├── OrdenamientoSeleccionTest.java
+│       │               └── TestGlobal.java
 │       │
 │       └── /resources
-│           └── benchmark_data.xlsx            # Hoja de cálculo generada para los benchmarks
+│           └── benchmark_data.xlsx
 │
 └── /docs
-    ├── README.md                             # Documentación general del proyecto
-    └── Reporte.md                            # Reporte detallado con análisis y resultados
+    ├── README.md
+    └── Reporte.md
 
 
 ## Algoritmos Implementados
