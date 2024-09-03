@@ -10,46 +10,42 @@ Este proyecto consiste en la implementación de varios algoritmos de búsqueda y
 
 El proyecto está organizado utilizando Apache Maven para gestionar las dependencias y la estructura del proyecto. A continuación se muestra la estructura de archivos y directorios:
 
+```bash
 /KodigoActividad2
 │
 ├── pom.xml
-│
-├── /src
-│   ├── /main
-│   │   ├── /java
-│   │   │   └── /com
-│   │   │       └── /kodigo
-│   │   │           └── /algoritmos
-│   │   │               ├── BusquedaSecuencial.java
-│   │   │               ├── BusquedaBinaria.java
-│   │   │               ├── OrdenamientoBurbuja.java
-│   │   │               ├── OrdenamientoInsercion.java
-│   │   │               ├── OrdenamientoSeleccion.java
-│   │   │               └── AlgoritmoUtils.java
-│   │   │
-│   │   └── /resources
-│   │       └── log4j2.xml
-│   │
-│   └── /test
-│       ├── /java
-│       │   └── /com
-│       │       └── /kodigo
-│       │           └── /algoritmos
-│       │               ├── AlgoritmoUtils.java
-│       │               ├── BusquedaSecuencialTest.java
-│       │               ├── BusquedaBinariaTest.java
-│       │               ├── OrdenamientoBurbujaTest.java
-│       │               ├── OrdenamientoInsercionTest.java
-│       │               ├── OrdenamientoSeleccionTest.java
-│       │               └── TestGlobal.java
-│       │
-│       └── /resources
-│           └── benchmark_data.xlsx
-│
-└── /docs
-    ├── README.md
-    └── Reporte.md
+├── README.md
+├── benchmark_data.xlsx
+└── /src
+    ├── /main
+    │   ├── /java
+    │   │   └── /com
+    │   │       └── /kodigo
+    │   │           └── /algoritmos
+    │   │               ├── BusquedaSecuencial.java
+    │   │               ├── BusquedaBinaria.java
+    │   │               ├── OrdenamientoBurbuja.java
+    │   │               ├── OrdenamientoInsercion.java
+    │   │               ├── OrdenamientoSeleccion.java
+    │   │               └── AlgoritmoUtils.java
+    │   │
+    │   └── /resources
+    │       └── log4j2.xml
+    │
+    └── /test
+        ├── /java
+            └── /com
+                └── /kodigo
+                    └── /algoritmos
+                        ├── AlgoritmoUtils.java
+                        ├── BusquedaSecuencialTest.java
+                        ├── BusquedaBinariaTest.java
+                        ├── OrdenamientoBurbujaTest.java
+                        ├── OrdenamientoInsercionTest.java
+                        ├── OrdenamientoSeleccionTest.java
+                        └── TestGlobal.java
 
+```
 
 ## Algoritmos Implementados
 
@@ -63,7 +59,7 @@ El proyecto está organizado utilizando Apache Maven para gestionar las dependen
 
 ### Prerrequisitos
 
-- [Java JDK 8+](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+- [Java JDK 17+](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 - [Apache Maven 3.6+](https://maven.apache.org/download.cgi)
 
 ### Compilación y Ejecución
@@ -71,8 +67,8 @@ El proyecto está organizado utilizando Apache Maven para gestionar las dependen
 1. Clona este repositorio:
 
     ```bash
-    git clone https://github.com/tuusuario/tu-repositorio.git
-    cd tu-repositorio
+    git clone https://github.com/arielrp-dev/KodigoActividad2
+    cd KodigoActividad2
     ```
 
 2. Compila el proyecto utilizando Maven:
@@ -84,7 +80,7 @@ El proyecto está organizado utilizando Apache Maven para gestionar las dependen
 3. Ejecuta el archivo `TestGlobal.java` para realizar las pruebas de rendimiento y generar el archivo Excel con los resultados:
 
     ```bash
-    mvn exec:java -Dexec.mainClass="com.tuempresa.algoritmos.TestGlobal"
+    mvn exec:java -Dexec.mainClass="com.kodigo.algoritmos.TestGlobal"
     ```
 
 ### Pruebas
